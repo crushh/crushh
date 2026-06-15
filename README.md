@@ -56,12 +56,12 @@ These are older, smaller, or experimental repositories. I keep them as learning 
 ## Languages
 
 - Mandarin: Native
-- English: Professional working proficiency
-- Japanese: Learning, targeting engineering communication in Japan
+- English: Comfortable reading technical documentation; daily conversation level speaking
+- Japanese: JLPT N2
 
 ## Current Focus
 
-- Improving Japanese communication for interviews and engineering teamwork
+- Improving Japanese communication for interviews and engineering teamwork beyond JLPT N2
 - Strengthening production-quality documentation, screenshots, and setup guides
 - Adding tests and cleaner deployment notes to portfolio projects
 - Building more practical React / Next.js / TypeScript projects
