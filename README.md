@@ -12,15 +12,17 @@ I build practical web applications from UI to API and database. I am currently t
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
 ## What I'm Building
 
 - Data-driven web applications with search, filtering, detail pages, and admin-style workflows
 - Full-stack features that connect frontend UI, API routes, SQL queries, and MySQL schema design
+- Content automation tools that combine structured data, media generation, and batch processing
 - Internal tools and portfolio projects that show real implementation rather than only UI mockups
 - Cleaner engineering portfolio material for Japanese recruiters and engineering managers
 
-## Main Project
+## Featured Projects
 
 ### [RDC Drug Search Platform](https://github.com/crushh/drug)
 
@@ -37,12 +39,41 @@ What it demonstrates:
 
 Tech: `Next.js` `React` `TypeScript` `MySQL` `mysql2` `API Routes` `SQL` `GitHub Actions`
 
+### [IT Vocab Video Factory](https://github.com/crushh/it-vocab-video-factory)
+
+TypeScript automation tool for batch-generating vertical Japanese IT vocabulary videos from Anki CSV data.
+
+What it demonstrates:
+
+- Converts Anki CSV vocabulary data into structured JSON
+- Generates Japanese TTS audio with Google Cloud Text-to-Speech
+- Renders short vertical videos with Remotion and React
+- Uses ffmpeg/ffprobe for video compression and audio-duration based rendering
+- Exports metadata for generated video assets
+- Provides test, next-batch, and full-batch scripts for controlled content production
+
+Tech: `TypeScript` `Node.js` `React` `Remotion` `Google TTS` `CSV` `FFmpeg`
+
+### [Astar User Management](https://github.com/crushh/management-user)
+
+WordPress/PHP plugin for managing au pair and family user workflows.
+
+What it demonstrates:
+
+- Built a WordPress plugin with namespaced classes and autoloading
+- Registers custom roles, frontend registration/login forms, and user center pages
+- Implements REST API endpoints for authentication, member data, family data, media upload, and approval workflows
+- Adds WordPress admin pages for user review, assignment, detail views, and consultant workflows
+- Uses shortcodes, templates, assets, hooks, nonces, permissions, and localized scripts
+
+Tech: `PHP` `WordPress Plugin API` `REST API` `Admin Pages` `Shortcodes` `User Roles`
+
 ## Technical Focus
 
 - Frontend: React, Next.js, TypeScript, Vue.js, JavaScript, HTML, CSS
 - Backend: Node.js, Express, Next.js API Routes
 - Database: MySQL, SQL, relational schema design, joins, indexes
-- CMS / PHP: WordPress, PHP, plugin hooks, roles and capabilities
+- CMS / PHP: WordPress, PHP, plugin hooks, REST API, roles and capabilities
 - Automation: GitHub Actions, Notion API, Markdown workflows
 
 ## Background Repositories
@@ -51,7 +82,6 @@ These are older, smaller, or experimental repositories. I keep them as learning 
 
 - [crushh-blog-actions](https://github.com/crushh/crushh-blog-actions) - Node.js GitHub Action, Notion API integration, Markdown generation, image migration workflow
 - [Vue-ele-app](https://github.com/crushh/Vue-ele-app) - earlier Vue 2 mobile app practice with Vue Router, Vuex, Axios, location/search/filter/order screens
-- [php-user-manager-01](https://github.com/crushh/php-user-manager-01) - early WordPress plugin learning: hooks, roles, capabilities, activation/deactivation cleanup
 
 ## Languages
 
